@@ -1,0 +1,35 @@
+{
+    "musics": [
+        {
+            "id": 1,
+            "name": "Để Mị Nói Cho Mà Nghe",
+            "singer": "Hoàng Thùy Linh",
+            "image": "/images/Để Mị Nói Cho Mà Nghe.jpg",
+            "source": "/musics/Để Mị Nói Cho Mà Nghe - Hoàng Thùy Linh.mp3"
+        },
+
+        {
+            "id": 2,
+            "name": "Duyên Âm",
+            "singer": "Hoàng Thùy Linh",
+            "image": "/images/Duyên Âm.jpg",
+            "source": "/musics/Duyên Âm - Hoàng Thùy Linh.mp3"
+        },
+
+        {
+            "id": 3,
+            "name": "Em Đây Chẳng Phải Thúy Kiều",
+            "singer": "Hoàng Thùy Linh",
+            "image": "/images/Em Đây Chẳng Phải Thúy Kiều.jpg",
+            "source": "/musics/Em Đây Chẳng Phải Thúy Kiều - Hoàng Thùy Linh.mp3"
+        },
+        
+        {
+            "id": 4,
+            "name": "Kẻ Cắp Gặp Bà Già",
+            "singer": "Hoàng Thùy Linh",
+            "image": "/images/Kẻ Cắp Gặp Bà Già.jpg",
+            "source": "/musics/Kẻ Cắp Gặp Bà Già - Hoàng Thùy Linh, Binz.mp3"
+        }
+    ]
+}

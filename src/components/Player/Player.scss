@@ -1,0 +1,41 @@
+.player {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+
+    .img-song {
+        display: block;
+        max-width: 50%;
+        border: solid 1px transparent;
+        border-radius: 100%;
+
+        animation: rotate-360 30s linear infinite;
+        margin: 0px auto;
+    }
+
+        @keyframes rotate-360 {
+            0% {transform: rotate(0deg);}
+            100% {transform:  rotate(360deg);}
+        }
+
+    .hidden-img {
+        display: none;
+    }
+
+    audio {
+        display: block;
+        margin: auto;
+        max-width: 50%;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+// Ẩn Player khi không có nhạc
+.hidden-player {
+    img {
+        display: none;
+    }
+}

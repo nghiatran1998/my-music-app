@@ -1,0 +1,9 @@
+.songs-list {
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: rgb(198, 238, 238);
+    }
+}

@@ -1,0 +1,17 @@
+.music-list-div {
+  width: 50%;
+  margin: auto;
+  cursor: pointer;
+  
+  ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+  }
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
