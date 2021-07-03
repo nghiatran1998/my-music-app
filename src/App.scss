@@ -1,5 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
 .music-list-div {
-  width: 50%;
   margin: auto;
   cursor: pointer;
   
@@ -14,4 +24,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (min-width:801px) {
+  .music-list-div {
+    width: 50%;
+  }
 }

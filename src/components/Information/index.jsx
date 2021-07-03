@@ -5,7 +5,7 @@ import "./Information.scss";
 Information.propTypes = {
   name: PropTypes.string,
   singer: PropTypes.string,
-  source: PropTypes.string,
+  mp3: PropTypes.string,
   image: PropTypes.string,
   handlePlaySongBySource: PropTypes.func,
 };
@@ -13,19 +13,19 @@ Information.propTypes = {
 Information.defaultProps = {
   name: "",
   singer: "",
-  source: "",
+  mp3: "",
   image: "",
   handlePlaySongBySource: null,
 };
 
 function Information(props) {
-  const { name, singer, source, image, handlePlaySongBySource } = props;
+  const { name, singer, mp3, image, handlePlaySongBySource } = props;
 
   const info = {
     name: name,
     singer: singer,
     image: image,
-    mp3: source,
+    mp3: mp3,
   };
 
   const handlePLaySong = (infomation) => {

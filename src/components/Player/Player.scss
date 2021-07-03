@@ -1,7 +1,4 @@
 .player {
-    width: 50%;
-    margin: auto;
-    padding: 20px 0px;
 
     .img-song {
         display: block;
@@ -25,11 +22,22 @@
     audio {
         display: block;
         margin: auto;
-        max-width: 50%;
     }
 
     p {
         text-align: center;
+    }
+
+    .btns-list {
+        width: fit-content;
+        padding: 10px;
+        margin: 10px auto;
+        
+        .btn {
+            padding: 10px 20px;
+            margin: 0px 10px;
+            cursor: pointer;
+        }
     }
 }
 
@@ -37,5 +45,16 @@
 .hidden-player {
     img {
         display: none;
+    }
+}
+
+@media (min-width:801px) {
+    .player {
+        width: 50%;
+        margin: auto;
+    }
+
+    audio {
+        max-width: 50%;
     }
 }
